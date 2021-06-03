@@ -1,0 +1,118 @@
+
+
+.menu-left {
+    margin-left: 400px;
+}
+.btn-right{
+    margin-right: 100px;
+}
+.lfwf-left{
+    margin-left: 55px;
+
+}
+.lfw{
+    font-weight: 500;
+}
+.icon {
+    height:40px;
+    width: 48px;
+    border: 1px solid #fc5e03;
+    color: #fc5e03;
+    border-radius: 5px;
+    font-size: 36px;
+}
+ .lfwf{
+     display: inline-block;
+ }
+ 
+/* banar */
+
+.banar {
+    background: url(./banar\ imd.jpg) no-repeat center;
+    padding: 200px;
+    text-align: center;
+    color: white;
+    position: relative;
+    z-index: 1;
+}
+.banar::after{
+    content: "";
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: -1;
+}
+.banar h2{
+    padding: 10px;
+}
+.banar a {
+    margin-top: 54px;
+    margin-left: 78px;
+}
+.banar h1{
+    font-size:50px ;
+}
+
+
+/* about section */
+
+.about{
+    background-color: #f7f9ff;
+     
+}
+
+.about-lyrics {
+    margin-top: 115px;
+}
+.about-lyrics h2 {
+    margin-bottom: 30px;
+}
+.about-lyrics p{
+    font-size: 20px ;
+}
+
+/* feature section */
+
+.item-left{
+    width: 40%;
+}
+.item-right{
+    width: 60%;
+    margin-top: 10px;
+     padding: 10px;
+     margin-left: 10px;
+
+}
+
+
+/* view section */
+
+.view{
+    background-color: #f7f9ff;
+}
+
+/* teacher section */
+
+.portfolio a{
+    display: block;
+    position: relative;
+}
+.portfolio a::after{
+    content: "";
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background: rgba(170, 221, 30, 0.6);
+    opacity: 0;
+    visibility: hidden;
+}
+.portfolio:hover a::after{
+    opacity: 1;
+    visibility: visible;
+    transition: .5s;
+}
